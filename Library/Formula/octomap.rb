@@ -4,7 +4,6 @@ class Octomap < Formula
   homepage 'http://gazebosim.org'
   url 'https://github.com/OctoMap/octomap/archive/v1.6.0.tar.gz'
   sha1 '7323e0f7f9532bcdbc00fcc453855cae9b6462ea'
-  version '1.6.0'
 
   depends_on 'cmake'  => :build
   depends_on 'doxygen'
@@ -12,13 +11,14 @@ class Octomap < Formula
 
   def patches
     [
-      "https://gist.github.com/yida/5427758"
-      "https://gist.github.com/yida/5427759"
-      "https://gist.github.com/yida/5427760"
-      "https://gist.github.com/yida/5427761"
-      "https://gist.github.com/yida/5427762"
+      "https://gist.github.com/yida/5427758",
+      "https://gist.github.com/yida/5427759",
+      "https://gist.github.com/yida/5427760",
+      "https://gist.github.com/yida/5427761",
+      "https://gist.github.com/yida/5427762",
       "https://gist.github.com/yida/5427763"
     ]
+  end
 
   def install
     ENV.m64
