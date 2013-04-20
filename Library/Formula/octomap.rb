@@ -1,7 +1,7 @@
 require 'formula'
 
 class Octomap < Formula
-  homepage 'http://gazebosim.org'
+  homepage 'http://octomap.github.io/'
   url 'https://github.com/OctoMap/octomap/archive/v1.6.0.tar.gz'
   sha1 '7323e0f7f9532bcdbc00fcc453855cae9b6462ea'
 
