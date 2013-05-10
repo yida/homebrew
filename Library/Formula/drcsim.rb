@@ -2,8 +2,8 @@ require 'formula'
 
 class Drcsim < Formula
   homepage 'http://gazebosim.org'
-  url 'https://bitbucket.org/yida/drcsim/get/drc_no_ros.tar.bz2'
-  sha1 '376aa3e6e73f328f65c523d4518e2dd0e96dda43'
+  url 'https://bitbucket.org/yida/drcsim/get/drcsim_2.5.0_no_ros.tar.bz2'
+  sha1 'f356f954694f89e2ff8f6141bb0108313f2343ef'
   version '2.5'
 
   depends_on 'cmake'  => :build
